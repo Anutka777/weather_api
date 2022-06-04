@@ -1,0 +1,554 @@
+[
+  {
+    "LocalObservationDateTime": "2022-06-03T05:57:00+05:00",
+    "EpochTime": 1654217820,
+    "WeatherText": "Mostly sunny",
+    "WeatherIcon": 2,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 9.5,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 49,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-03T04:57:00+05:00",
+    "EpochTime": 1654214220,
+    "WeatherText": "Clouds and sun",
+    "WeatherIcon": 4,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 9.1,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 48,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-03T03:58:00+05:00",
+    "EpochTime": 1654210680,
+    "WeatherText": "Mostly cloudy",
+    "WeatherIcon": 38,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": false,
+    "Temperature": {
+      "Metric": {
+        "Value": 9.7,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 49,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-03T02:58:00+05:00",
+    "EpochTime": 1654207080,
+    "WeatherText": "Mostly cloudy",
+    "WeatherIcon": 38,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": false,
+    "Temperature": {
+      "Metric": {
+        "Value": 10.6,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 51,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-03T02:04:00+05:00",
+    "EpochTime": 1654203840,
+    "WeatherText": "Cloudy",
+    "WeatherIcon": 7,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": false,
+    "Temperature": {
+      "Metric": {
+        "Value": 12.8,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 55,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-03T00:57:00+05:00",
+    "EpochTime": 1654199820,
+    "WeatherText": "Cloudy",
+    "WeatherIcon": 7,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": false,
+    "Temperature": {
+      "Metric": {
+        "Value": 16.4,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 62,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T23:57:00+05:00",
+    "EpochTime": 1654196220,
+    "WeatherText": "Mostly cloudy",
+    "WeatherIcon": 38,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": false,
+    "Temperature": {
+      "Metric": {
+        "Value": 19.5,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 67,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T22:57:00+05:00",
+    "EpochTime": 1654192620,
+    "WeatherText": "Cloudy",
+    "WeatherIcon": 7,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": false,
+    "Temperature": {
+      "Metric": {
+        "Value": 18.8,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 66,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T21:59:00+05:00",
+    "EpochTime": 1654189140,
+    "WeatherText": "Cloudy",
+    "WeatherIcon": 7,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": false,
+    "Temperature": {
+      "Metric": {
+        "Value": 20.6,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 69,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T20:58:00+05:00",
+    "EpochTime": 1654185480,
+    "WeatherText": "Mostly cloudy",
+    "WeatherIcon": 6,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 22.6,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 73,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T19:58:00+05:00",
+    "EpochTime": 1654181880,
+    "WeatherText": "Cloudy",
+    "WeatherIcon": 7,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 23.7,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 75,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T18:57:00+05:00",
+    "EpochTime": 1654178220,
+    "WeatherText": "Cloudy",
+    "WeatherIcon": 7,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 24.8,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 77,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T17:57:00+05:00",
+    "EpochTime": 1654174620,
+    "WeatherText": "Mostly cloudy",
+    "WeatherIcon": 6,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 25.7,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 78,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T16:58:00+05:00",
+    "EpochTime": 1654171080,
+    "WeatherText": "Clouds and sun",
+    "WeatherIcon": 4,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 23.9,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 75,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T16:03:00+05:00",
+    "EpochTime": 1654167780,
+    "WeatherText": "Clouds and sun",
+    "WeatherIcon": 4,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 23.9,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 75,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T14:58:00+05:00",
+    "EpochTime": 1654163880,
+    "WeatherText": "Partly sunny",
+    "WeatherIcon": 3,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 25.4,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 78,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T14:04:00+05:00",
+    "EpochTime": 1654160640,
+    "WeatherText": "Mostly cloudy",
+    "WeatherIcon": 6,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 23.4,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 74,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T12:57:00+05:00",
+    "EpochTime": 1654156620,
+    "WeatherText": "Clouds and sun",
+    "WeatherIcon": 4,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 23.4,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 74,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T11:57:00+05:00",
+    "EpochTime": 1654153020,
+    "WeatherText": "Sunny",
+    "WeatherIcon": 1,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 23.6,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 74,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T10:57:00+05:00",
+    "EpochTime": 1654149420,
+    "WeatherText": "Mostly cloudy",
+    "WeatherIcon": 6,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 21,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 70,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T09:58:00+05:00",
+    "EpochTime": 1654145880,
+    "WeatherText": "Clouds and sun",
+    "WeatherIcon": 4,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 19.7,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 67,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T09:05:00+05:00",
+    "EpochTime": 1654142700,
+    "WeatherText": "Clouds and sun",
+    "WeatherIcon": 4,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 19.7,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 67,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T07:58:00+05:00",
+    "EpochTime": 1654138680,
+    "WeatherText": "Sunny",
+    "WeatherIcon": 1,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 12.7,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 55,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2022-06-02T06:58:00+05:00",
+    "EpochTime": 1654135080,
+    "WeatherText": "Sunny",
+    "WeatherIcon": 1,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 4.5,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 40,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ru/nizhny-tagil/290714/current-weather/290714?lang=en-us"
+  }
+]
