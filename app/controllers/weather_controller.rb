@@ -18,6 +18,11 @@ class WeatherController < ApplicationController
     min = sort_by_temperature.first
     render json: min
   end
+
+  def historical_avg
+    avg = (@weather.sum { |item| item[:temperature]['Value'] }) / @weather.count
+    render plain: avg
+  end
   
   private
   
