@@ -23,6 +23,10 @@ class WeatherController < ApplicationController
     avg = (@weather.sum { |item| item[:temperature]['Value'] }) / @weather.count
     render plain: avg
   end
+
+  def health
+    render plain: 'OK'
+  end
   
   private
   

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'weather/historical/max', to: 'weather#historical_max'
   get 'weather/historical/min', to: 'weather#historical_min'
   get 'weather/historical/avg', to: 'weather#historical_avg'
+  get 'health', to: 'weather#health'
 
   root to: 'weather#current'
 end
