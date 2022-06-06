@@ -1,5 +1,5 @@
 class WeatherController < ApplicationController
-  before_action :collect_data
+  before_action :get_weather
 
   def current
     render json: @weather.first
@@ -10,25 +10,23 @@ class WeatherController < ApplicationController
   end
 
   def historical_max
-    @weather = sort_by_temperature
-    max = @weather.last
+    max = sort_by_temperature.last
     render json: max
   end
 
   def historical_min
-    @weather = sort_by_temperature
-    min = @weather.first
+    min = sort_by_temperature.first
     render json: min
   end
   
   private
   
-  def collect_data
+  def get_weather
     # TODO: Date condition 
-    @weather = Weather.get_weather
+    @weather = Weather.collect_data
   end
 
   def sort_by_temperature
-    @weather.sort_by { |item| item[:temperature]['Value']}
+    @weather.sort_by { |item| item[:temperature]['Value'] }
   end
 end

@@ -7,7 +7,7 @@ class Weather < ApplicationRecord
     data = Net::HTTP.get(uri)
   end
 
-  def self.get_weather
+  def self.collect_data
     # Actual behavour
     # data_json = self.call_api
 
