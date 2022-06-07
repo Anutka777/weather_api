@@ -1,41 +1,37 @@
 class WeatherController < ApplicationController
-  before_action :get_weather
+  before_action :get_weather, :collect_temperatures, except: %i[health]
 
   def current
-    render json: @weather.first
+    render plain: @daily_temperatures.first
   end
 
   def historical
-    render json: @weather
+    render plain: @daily_temperatures
   end
 
   def historical_max
-    max = sort_by_temperature.last
-    render json: max
+    render plain: @daily_temperatures.max
   end
 
   def historical_min
-    min = sort_by_temperature.first
-    render json: min
+    render plain: @daily_temperatures.min
   end
 
   def historical_avg
-    avg = (@weather.sum { |item| item[:temperature]['Value'] }) / @weather.count
-    render plain: avg
+    render plain: (@daily_temperatures.sum / @daily_temperatures.size).round(1)
   end
 
   def health
-    render plain: 'OK'
+    render plain: 'OK', status: :ok
   end
   
   private
   
   def get_weather
-    # TODO: Date condition 
     @weather = Weather.collect_data
   end
 
-  def sort_by_temperature
-    @weather.sort_by { |item| item[:temperature]['Value'] }
+  def collect_temperatures
+    @daily_temperatures = @weather.collect { |day| day[:temperature]['Value'] }
   end
 end
