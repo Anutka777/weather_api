@@ -1,5 +1,6 @@
 class WeatherController < ApplicationController
-  before_action :get_weather, :collect_temperatures, except: %i[health]
+  before_action :get_weather
+  before_action :collect_temperatures, except: %i[health, by_time]
 
   def current
     render plain: @daily_temperatures.first
@@ -23,6 +24,18 @@ class WeatherController < ApplicationController
 
   def health
     render plain: 'OK', status: :ok
+  end
+
+  def by_time
+    query_time = (params[:epoch].to_i)
+
+    weather_from_nearest_time = @weather.min_by { |record| (query_time - record[:epoch]).to_i.abs }
+
+    if (weather_from_nearest_time[:epoch] - query_time).to_i.abs > (60 * 60)
+      render file: "#{Rails.root}/public/404.html", layout: false, status: 404
+    else
+      render json: weather_from_nearest_time[:temperature]['Value'], status: :ok
+    end
   end
   
   private
