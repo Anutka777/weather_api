@@ -1,29 +1,30 @@
 class WeatherController < ApplicationController
   before_action :get_weather
-  before_action :collect_temperatures, except: %i[health, by_time]
+  before_action :collect_temperatures, except: %i[health, historical, by_time]
+  before_action :collect_temperatures_with_timestamps, only: :historical
 
   def current
-    render plain: @daily_temperatures.first
+    render json: @daily_temperatures.first, status: :ok
   end
 
   def historical
-    render plain: @daily_temperatures
+    render json: @timestamp_temperatures, status: :ok
   end
 
   def historical_max
-    render plain: @daily_temperatures.max
+    render json: @daily_temperatures.max, status: :ok
   end
 
   def historical_min
-    render plain: @daily_temperatures.min
+    render json: @daily_temperatures.min, status: :ok
   end
 
   def historical_avg
-    render plain: (@daily_temperatures.sum / @daily_temperatures.size).round(1)
+    render json: (@daily_temperatures.sum / @daily_temperatures.size).round(1), status: :ok
   end
 
   def health
-    render plain: 'OK', status: :ok
+    render json: 'OK', status: :ok
   end
 
   def by_time
@@ -45,6 +46,15 @@ class WeatherController < ApplicationController
   end
 
   def collect_temperatures
-    @daily_temperatures = @weather.collect { |day| day[:temperature]['Value'] }
+    @daily_temperatures = @weather.collect { |record| record[:temperature]['Value'] }
+  end
+
+  def collect_temperatures_with_timestamps
+    @timestamp_temperatures = @weather.collect do |record|
+      Hash[
+        time: record[:time],
+        temperature: record[:temperature]['Value']
+      ]
+    end
   end
 end
